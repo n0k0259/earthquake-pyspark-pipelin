@@ -8,6 +8,7 @@ from pyspark.sql.types import StructType, StructField, StringType, DoubleType, L
 # Configuration
 RAW_DATA_DIR = "data/raw"
 PROCESSED_DATA_DIR = "data/processed/earthquakes" # Output directory for Parquet files
+# Ensure the output directory exists
 
 def get_latest_raw_file(directory):
     """Finds the most recently created JSON file in the directory."""
