@@ -1,0 +1,20 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# PySpark logs
+metastore_db/
+derby.log
+
+# Virtual environment
+venv/
+
+# MacOS
+.DS_Store
+
+# PyCharm
+.idea/
+
+# Data
+data/
